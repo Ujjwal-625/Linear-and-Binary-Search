@@ -6,7 +6,7 @@ public class SearchSpecificWord {
         String [] arr=s.split(" ");
 
         for(String i:arr){
-            if(arr.equals(word)){
+            if(i.equals(word)){
                 System.out.println("Word found");
                 return ;
             }
